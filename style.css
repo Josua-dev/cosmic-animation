@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #050510;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+#c {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  cursor: crosshair;
+}
+
+.hint {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(255, 255, 255, 0.25);
+  font-family: sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  pointer-events: none;
+  user-select: none;
+}
